@@ -1,1 +1,1 @@
-{"version":3,"file":"commonHelpers.js","sources":["../src/js/01-timer.js"],"sourcesContent":["console.log(\"timer\");"],"names":[],"mappings":"oCAAA,QAAQ,IAAI,OAAO"}
+{"version":3,"file":"commonHelpers.js","sources":["../src/js/01-timer.js"],"sourcesContent":["import flatpickr from \"flatpickr\";\n\nimport \"flatpickr/dist/flatpickr.min.css\";\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nconsole.log(flatpickr);\n\n\n"],"names":["flatpickr"],"mappings":"oFAmBA,QAAQ,IAAIA,CAAS"}
