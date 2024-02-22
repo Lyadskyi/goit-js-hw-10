@@ -1,0 +1,84 @@
+/* Snackbar styles */
+
+/* .choice {
+  width: 360px;
+  height: 64px;
+  border-radius: 4px;
+  stroke-width: 1px;
+  stroke: #808080;
+} */
+
+fieldset {
+  border-radius: 4px;
+  stroke-width: 1px;
+  width: 360px;
+  /* padding: 0 0 0 0; */
+  border: 1px solid #808080;
+  margin-bottom: 24px;
+}
+
+/* .radio {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+} */
+
+legend {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+}
+
+.delay {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  gap: 8px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.input-delay {
+  margin-bottom: 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding: 0 0 0 16px;
+  width: 344px;
+  height: 40px;
+}
+
+.btn {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background: #4e75ff;
+  color: #fff;
+}
+
+.btn:hover {
+  background: #6c8cff;
+}
+
+/* 
+
+
+fieldset {
+  border-radius: 4px;
+  stroke-width: 1px;
+  width: 360px;
+  padding: 0 0 0 0;
+  border: 1px solid #808080;
+  margin-bottom: 24px;
+}
+
+ */
