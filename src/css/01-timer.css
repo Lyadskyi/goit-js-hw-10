@@ -63,8 +63,8 @@
   color: #2e2f42;
 }
 
-input {
-  /* margin-top: 20px; */
+#datetime-picker {
+  margin-top: 20px;
   padding: 0px 10px 0px 10px;
   border-radius: 4px;
   width: 252px;
