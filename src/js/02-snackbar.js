@@ -17,11 +17,15 @@ function handlerSubmit(event) {
 
 function delayValuePromise(delay) {
   if (delay > 0) {
-    const promise =
-      inputState.value === 'fulfilled'
-        ? Promise.resolve(`✅ Fulfilled promise in ${delay}ms`)
-        : Promise.reject(`❌ Rejected promise in ${delay}ms`);
+    
+    let promise;
 
+  if (inputState.value === 'fulfilled') {
+    promise = Promise.resolve(`✅ Fulfilled promise in ${delay}ms`);
+  } else {
+    promise = Promise.reject(`❌ Rejected promise in ${delay}ms`);
+    };
+    
   setTimeout(() => {
     promise;
   }, delay);
@@ -32,6 +36,7 @@ function delayValuePromise(delay) {
           message: value,
           backgroundColor: 'rgba(82, 223, 79, 0.3)',
           position: 'topRight',
+          progressBarColor: 'rgb(60, 179, 113)',
         });
       })
       .catch(value => {
@@ -39,6 +44,7 @@ function delayValuePromise(delay) {
           message: value,
           backgroundColor: 'rgba(223, 79, 79, 0.3)',
           position: 'bottomRight',
+          progressBarColor: 'rgb(255, 0, 0)',
         });
       });
   } else {
@@ -46,6 +52,7 @@ function delayValuePromise(delay) {
       message: 'Value must be more than 0',
       backgroundColor: 'light-grey',
       position: 'center',
+      progressBarColor: 'rgb(128, 128, 128)',
     });
   };
 };
