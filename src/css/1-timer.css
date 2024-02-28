@@ -76,6 +76,19 @@
   color: #2e2f42;
 }
 
+#datetime-picker:hover {
+  border: 1px solid #000;
+}
+
+#datetime-picker:active {
+  border: 1px solid #4e75ff;
+}
+
+#datetime-picker:disabled {
+  border: 1px solid #808080;
+  color: #808080;
+}
+
 button {
   border-radius: 8px;
   padding: 8px 16px;
@@ -91,6 +104,6 @@ button {
   color: #fff;
 }
 
-button:hover{
+button:hover {
   background: #6c8cff;
 }
