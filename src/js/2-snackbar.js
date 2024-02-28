@@ -1,7 +1,7 @@
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 import iconCheck from '../img/check-circle.svg';
-import iconError from '../img/error-octagon.svg';
+import iconError from '../img/x-octagon.svg';
 
 const form = document.querySelector(".form");
 const inputState = form.state;
